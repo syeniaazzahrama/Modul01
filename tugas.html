@@ -35,10 +35,11 @@
         }
 
         .menu li {
-            flex: 1;
+            /* flex: 1; */
             list-style: none;
             display: flex;
             align-items: center;
+            width: 100%;
             justify-content: center;
             border-right: 1px black solid;
             padding: 8px 0;
@@ -47,6 +48,8 @@
 
         .menu li:last-child {
             border-right: none;
+            width: max-content;
+            margin: 0 45px;
         }
 
         nav .link {
